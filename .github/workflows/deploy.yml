@@ -1,0 +1,34 @@
+name: Deploy Hugo to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]  # 触发分支
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive  # 包含主题子模块
+          fetch-depth: 0         # 获取所有提交历史
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true         # 使用扩展版（如果主题需要）
+
+      - name: Build
+        run: |
+          hugo --minify --gc
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages  # 部署到的分支
+          force_orphan: true        # 保持分支干净
+          keep_files: false         # 删除旧文件
