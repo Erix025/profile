@@ -1,3 +1,3 @@
-[submodule "themes/hugo-resume"]
-	path = themes/hugo-resume
-	url = https://github.com/eddiewebb/hugo-resume
+[submodule "themes/erix-resume"]
+	path = themes/erix-resume
+	url = https://github.com/erix025/erix-resume
