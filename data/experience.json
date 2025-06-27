@@ -1,20 +1,20 @@
 [
     {
-        "role":"Boss man",
-        "company":"Current Company LTD",
-        "summary":"Led in development of fast paced software teams.\n- list\n- of\n- things",
-        "range":"February 2016 - Present"
+        "role": "Team Leader",
+        "company": "ZJUSCT (Zhejiang University Supercomputing Team)",
+        "summary": "Led a team of students in participating in various supercomputing competitions, focusing on machine learning systems (MLSys) and high-performance computing (HPC) solutions.",
+        "range": "May 2025 - Present"
     },
     {
-        "role":"Developer",
-        "company":"Current Company LTD",
-        "summary":"Expedited the synergies of collaborative agile tooling.",
-        "range":"March 2014 - February 2016"
+        "role": "Member",
+        "company": "ZJUSCT (Zhejiang University Supercomputing Team)",
+        "summary": "Contributed to the development of HPC solutions and participated in various supercomputing competitions both domestically and internationally.",
+        "range": "October 2023 - May 2025"
     },
     {
-        "role":"Developer",
-        "company":"Previous Company Inc.",
-        "summary":"Implemented continuous devops pipelines automationing",
-        "range":"February 2013 - March 2014"
+        "role":"Teacher Assistant",
+        "company":"Computer Architecture Course, Zhejiang University",
+        "summary":"Assisted Prof. Chang in teaching the Computer Architecture course. \n- Provided support in grading assignments and exams. \n- Refined course and experiment materials. \n- Examined students' works in experiments and provided feedback.",
+        "range":"Spring 2025"
     }
 ]

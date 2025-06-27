@@ -1,15 +1,8 @@
 [
     {
-        "school":"[Rochester Institute of Technology](https://rit.edu)",
+        "school":"[Zhejiang University](https://www.zju.edu.cn/english/)",
         "degree":"Bachelor of Science",
-        "major":"Management Information Systems",
-        "notes":"Beta Gamma Signma, High Honors",
-        "range":"2006 - 2008"
-    },
-    {
-        "school":"Clinton Community College",
-        "degree":"Associate of Applied Science",
-        "major":"Computer Information Systems",
-        "range":"2004 - 2006"
+        "major":"Computer Science and Technology",
+        "range":"2022 - Present"
     }
 ]

@@ -21,7 +21,7 @@ showContact = false
 showBoards  = false
 showCertifications = false
 showSocializations = true
-sections = ["skills","education","publications","experience","awards","blog"]
+sections = ["education","experience","awards","blog"]
 
 [[params.handles]]
     name = "GitHub"
