@@ -6,6 +6,12 @@
         "range": "May 2025 - Present"
     },
     {
+        "role": "Teaching Assistant",
+        "company": "[HPC101](https://hpc101.zjusct.io), Zhejiang University",
+        "summary": "Assisted in the HPC101 course, focusing on high-performance computing concepts and practical applications. \n- Contributed to experiment design and implementation about deep learning. \n- Given a lecture on deep learning system. \n- Collaborated with other TAs in scheduling the course, refining course materials and providing support to students.",
+        "range": "Summer 2025"
+    },
+    {
         "role": "Member",
         "company": "[ZJUSCT](https://zjusct.io/)",
         "summary": "Contributed to the development of HPC solutions and participated in various supercomputing competitions both domestically and internationally.",
@@ -16,5 +22,11 @@
         "company": "Computer Architecture Course, Zhejiang University",
         "summary": "Assisted Prof. Chang in teaching the Computer Architecture course. \n- Provided support in grading assignments and exams. \n- Refined course and experiment materials. \n- Examined students' works in experiments and provided feedback.",
         "range": "Spring 2025"
+    },
+    {
+        "role": "Teaching Assistant",
+        "company": "[HPC101](https://hpc101.zjusct.io), Zhejiang University",
+        "summary": "Assisted in the HPC101 course, focusing on high-performance computing concepts and practical applications. \n- Contributed to experiment design and implementation about MPI/OpenMP. \n- Given a lecture on MPI and OpenMP parallel programming models, with co-lecturer Chenxiao Li and Jiarui Guo.",
+        "range": "Summer 2024"
     }
 ]
