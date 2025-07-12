@@ -1,8 +1,7 @@
 [
     {
-        "title": "Lecture on Deep Learning Systems in HPC101",
+        "title": "🏫 Lecture on Deep Learning Systems in [HPC101](https://hpc101.zjusct.io/)",
         "content": "Recently delivered a lecture on deep learning systems in the HPC101 course, covering key concepts in deep learning and several topics on efficient training and inference of deep learning models, especially in the context of high-performance computing (HPC) and LLMs.",
-        "date": "2025-07-06",
-        "link": "https://hpc101.zjusct.io/"
+        "date": "2025-07-06"
     }
 ]
