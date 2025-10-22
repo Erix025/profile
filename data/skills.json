@@ -5,7 +5,8 @@
       "Python",
       "C",
       "C++",
-      "CUDA"
+      "CUDA",
+      "Triton/TileLang"
     ]
   },
   {

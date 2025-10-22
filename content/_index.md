@@ -9,8 +9,8 @@ outputs:
 - rss
 - json
 ---
-🏫 I'm a junior student at Zhejiang University, majoring in Computer Science and Technology.
+🏫 I'm a senior student at Zhejiang University, majoring in Computer Science and Technology.
 
-🔭 I'm interested in MLSys and Efficient AI Inference System.
+🔭 I’m interested in Efficient AI through algorithm–system co-design, focusing on hardware-friendly sparse and quantized module design as well as efficient inference strategies.
 
 🚀 I'm currently a leader of ZJUSCT, a super computing team at Zhejiang University which has won several international super computing competitions.
