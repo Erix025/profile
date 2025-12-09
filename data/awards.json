@@ -2,7 +2,8 @@
     {
         "name": "National Scholarship of China",
         "award": "Recipient",
-        "date": "Oct 2025"
+        "date": "Oct 2025",
+        "featured": true
     },
     {
         "name": "5th Linear Solver Algorithm and Performance Optimization Competition",
@@ -12,12 +13,14 @@
     {
         "name": "ASC25 Student Supercomputer Challenge",
         "award": "First Prize",
-        "date": "May 2025"
+        "date": "May 2025",
+        "featured": true
     },
     {
         "name": "ASC25 Student Supercomputer Challenge",
         "award": "Application Innovation Award",
-        "date": "May 2025"
+        "date": "May 2025",
+        "featured": true
     },
     {
         "name": "Huawei ICT China Challenge",
