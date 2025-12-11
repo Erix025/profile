@@ -6,7 +6,7 @@ featured: true
 description: "PSA introduce an efficient attention mechanism to accelerate video understanding and generation. It leverages a multi-level sparse attention strategy, enabling the model to effectively mitigates information loss while preserving computational efficiency under a low compute budget."
 authors: ["Xiaolong Li*", "Youping Gu*", "Xi Lin*", "Weijie Wang", "Bohan Zhuang"]
 tags: ["Computer Vision", "Deep Learning", "Attention Mechanisms"]
-image: "/img/publications/psa_workflow.png"
+image: "/img/publications/PSA_workflow.png"
 link: "https://arxiv.org/abs/2512.04025"
 venue: "Preprint"
 weight: 300
