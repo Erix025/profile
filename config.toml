@@ -22,7 +22,7 @@ showBoards  = false
 showCertifications = false
 showSocializations = true
 blogUrl = "https://blogs.erix025.me"
-sections = ["news","education","experience","awards","blog"]
+sections = ["news","publications","experience","awards","education","blog"]
 
 [[params.handles]]
     name = "GitHub"
