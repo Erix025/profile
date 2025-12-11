@@ -28,6 +28,21 @@ sections = ["news","publications","experience","awards","education","blog"]
     name = "GitHub"
     link = "https://github.com/erix025/"
 
+[[params.handles]]
+    name = "X"
+    link = "https://x.com/erix035"
+    icon = "x-twitter"
+
+[[params.handles]]
+    name = "Email"
+    link = "mailto:erix025@outlook.com"
+    icon = "envelope"
+    iconClass = "fas"
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/xi-lin-482a1b393/"
+    
 [outputs]
 home = ["HTML", "JSON"]
 
