@@ -1,5 +1,10 @@
 [
     {
+        "title": "📢 New Preprint: Pyramid Sparse Attention (PSA)",
+        "content": "Excited to share our latest preprint on Pyramid Sparse Attention (PSA), a novel attention mechanism designed to enhance efficiency in video understanding and generation tasks. PSA leverages a multi-level sparse attention strategy to allocate computational resources effectively, enabling the model to focus on critical tokens while reducing redundancy. Check out the paper on [project page](https://ziplab.co/PSA)!",
+        "date": "2025-12-03"
+    },
+    {
         "title": "🏫 Lecture on Deep Learning Systems in [HPC101](https://hpc101.zjusct.io/)",
         "content": "Recently delivered a lecture on deep learning systems in the HPC101 course, covering key concepts in deep learning and several topics on efficient training and inference of deep learning models, especially in the context of high-performance computing (HPC) and LLMs.",
         "date": "2025-07-06"
