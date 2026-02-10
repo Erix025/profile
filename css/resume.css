@@ -1,0 +1,250 @@
+:root {
+  /* --- 核心连接色 --- */
+  --color-blue-pro: #00509D;
+  --color-blue-soft: #B7C9D6;
+
+  /* --- Hearth Palette (生活/柔和) --- */
+  --color-bg-warm: #FBF8FF;
+  --color-neutral-taupe: #DCD5CE;
+  --color-text-soft: #5A5A5A;
+
+  /* --- Apex Palette (工作/严谨) --- */
+  --color-bg-white: #FFFFFF;
+  --color-accent-vibrant: #FF8800;
+  --color-text-dark: #1A1A1A;
+
+  /* --- 图表扩展色 (Apex Data) --- */
+  --color-data-teal: #0092AD;
+  --color-data-green: #66BB6A;
+  --color-data-purple: #7D5BA6;
+}
+
+html {
+  --scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', 'Roboto', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  padding-top: 54px;
+  color: var(--color-text-soft);
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2 {
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  color: var(--color-text-dark);
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', 'Roboto', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 600;
+  color: var(--color-text-dark);
+}
+
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+/* Responsive heading sizes for mobile */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 3.2rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h2.text-muted {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2.5rem;
+    line-height: 2.3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Inter', 'Roboto', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.35rem;
+}
+
+.list-social-icons a {
+  color: var(--color-text-soft);
+}
+
+.list-social-icons a:hover {
+  color: var(--color-blue-pro);
+}
+
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem;
+}
+
+.list-icons {
+  font-size: 3rem;
+}
+
+.list-icons .list-inline-item i:hover {
+  color: var(--color-blue-pro);
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+section.resume-section {
+  border-bottom: 1px solid var(--color-neutral-taupe);
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  section.resume-section {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+}
+
+.bg-primary {
+  background-color: var(--color-blue-pro) !important;
+}
+
+.text-primary {
+  color: var(--color-blue-pro) !important;
+}
+
+a {
+  color: var(--color-blue-pro);
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: var(--color-accent-vibrant);
+}
+
+/* Awards section styles */
+.awards-list .award-item {
+  border-bottom: 1px solid var(--color-neutral-taupe);
+  padding: 1rem 0;
+}
+
+.awards-list .award-item:last-child {
+  border-bottom: none;
+}
+
+.awards-list .award-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-text-dark);
+  flex-grow: 1;
+}
+
+.awards-list .award-date {
+  font-weight: 500;
+  font-size: 1rem;
+  white-space: nowrap;
+  margin-left: 1rem;
+}
