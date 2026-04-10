@@ -8,6 +8,9 @@ authors: ["Xiaolong Li*", "Youping Gu*", "Xi Lin*", "Weijie Wang", "Bohan Zhuang
 tags: ["Computer Vision", "Deep Learning", "Attention Mechanisms"]
 image: "/img/publications/PSA_workflow.png"
 link: "https://arxiv.org/abs/2512.04025"
+arxiv: "https://arxiv.org/abs/2512.04025"
+github: "https://github.com/ziplab/Pyramid-Sparse-Attention"
+project_page: "http://ziplab.co/PSA/"
 venue: "Preprint"
 weight: 300
 sitemap:
