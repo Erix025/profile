@@ -23,6 +23,8 @@ showCertifications = false
 showSocializations = true
 blogUrl = "https://blogs.erix025.me"
 sections = ["news","publications","experience","awards","education","blog"]
+icpRecord = "浙ICP备2026045083号-1"
+icpRecordUrl = "https://beian.miit.gov.cn/"
 
 [[params.handles]]
     name = "GitHub"
