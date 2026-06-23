@@ -32,4 +32,4 @@ jobs:
           publish_branch: gh-pages # 部署到的分支
           force_orphan: true # 保持分支干净
           keep_files: false # 删除旧文件
-          cname: "profile.erix025.me"
+          cname: "erix025.me"

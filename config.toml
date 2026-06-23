@@ -1,5 +1,5 @@
 title = "Xi Lin"
-baseURL = "https://profile.erix025.me/"
+baseURL = "https://erix025.me/"
 theme = "erix-resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
