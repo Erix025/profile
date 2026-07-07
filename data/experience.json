@@ -1,32 +1,20 @@
 [
     {
-        "role": "Team Leader",
+        "role": "Research Intern",
+        "company": "Qwen Infra, Alibaba Cloud",
+        "summary": "Research intern in Qwen Infra, working on efficient inference infrastructure for Qwen.\n- Contributed to [FlashQLA](https://github.com/QwenLM/FlashQLA), a high-performance TileLang-based linear attention kernel library for Qwen.\n- Focused on efficient GPU kernel design, including fused forward/backward kernels, GDN Chunked Prefill optimization, gate-driven context parallelism, and hardware-friendly reformulation.",
+        "range": "Mar 2026 - Present"
+    },
+    {
+        "role": "Team Leader / Member",
         "company": "[ZJUSCT](https://zjusct.io/)",
-        "summary": "Led a team of students in participating in various supercomputing competitions, focusing on machine learning systems (MLSys) and high-performance computing (HPC) solutions.",
-        "range": "May 2025 - Present"
+        "summary": "Led and contributed to student teams in supercomputing competitions, focusing on machine learning systems (MLSys) and high-performance computing (HPC) solutions.",
+        "range": "October 2023 - May 2026"
     },
     {
         "role": "Teaching Assistant",
-        "company": "[HPC101](https://hpc101.zjusct.io), Zhejiang University",
-        "summary": "Assisted in the HPC101 course, focusing on high-performance computing concepts and practical applications. \n- Contributed to experiment design and implementation about deep learning. \n- Given a lecture on deep learning system. \n- Collaborated with other TAs in scheduling the course, refining course materials and providing support to students.",
-        "range": "Summer 2025"
-    },
-    {
-        "role": "Member",
-        "company": "[ZJUSCT](https://zjusct.io/)",
-        "summary": "Contributed to the development of HPC solutions and participated in various supercomputing competitions both domestically and internationally.",
-        "range": "October 2023 - May 2025"
-    },
-    {
-        "role": "Teaching Assistant",
-        "company": "Computer Architecture Course, Zhejiang University",
-        "summary": "Assisted Prof. Chang in teaching the Computer Architecture course. \n- Provided support in grading assignments and exams. \n- Refined course and experiment materials. \n- Examined students' works in experiments and provided feedback.",
-        "range": "Spring 2025"
-    },
-    {
-        "role": "Teaching Assistant",
-        "company": "[HPC101](https://hpc101.zjusct.io), Zhejiang University",
-        "summary": "Assisted in the HPC101 course, focusing on high-performance computing concepts and practical applications. \n- Contributed to experiment design and implementation about MPI/OpenMP. \n- Given a lecture on MPI and OpenMP parallel programming models, with co-lecturer Chenxiao Li and Jiarui Guo.",
-        "range": "Summer 2024"
+        "company": "Zhejiang University",
+        "summary": "- [HPC101](https://hpc101.zjusct.io), Summer 2024 and Summer 2025\n- Computer Architecture, Spring 2025",
+        "range": "2024 - 2025"
     }
 ]

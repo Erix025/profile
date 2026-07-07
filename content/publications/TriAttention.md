@@ -1,17 +1,17 @@
 ---
 title: "TriAttention: Efficient Long Reasoning with Trigonometric KV Compression"
 date: 2026-04-07
-pubtype: "Preprint"
+pubtype: "ICML 2026"
 featured: true
 description: "TriAttention proposes a novel KV cache compression approach for long reasoning in LLMs. It leverages trigonometric series based on fixed centers in pre-RoPE space to score key importance, achieving 2.5x higher throughput or 10.7x KV memory reduction while matching Full Attention reasoning accuracy."
-authors: ["Weian Mao", "Xi Lin", "Wei Huang", "Yuxin Xie", "Tianfu Fu", "Bohan Zhuang", "Song Han", "Yukang Chen"]
+authors: ["Weian Mao*", "Xi Lin*", "Wei Huang*", "Yuxin Xie", "Tianfu Fu", "Bohan Zhuang", "Song Han", "Yukang Chen"]
 tags: ["Large Language Models", "KV Cache Compression", "Efficient Inference"]
 image: "/img/publications/TriAttention.png"
 link: "https://arxiv.org/abs/2604.04921"
 arxiv: "https://arxiv.org/abs/2604.04921"
 github: "https://github.com/WeianMao/triattention"
 project_page: "https://weianmao.github.io/tri-attention-project-page/"
-venue: "Preprint"
+venue: "ICML 2026"
 weight: 200
 sitemap:
   priority: 0.8
