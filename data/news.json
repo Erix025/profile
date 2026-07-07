@@ -1,18 +1,17 @@
 [
     {
-        "title": "📢 New Preprint: TriAttention",
-        "content": "Excited to share our latest preprint on TriAttention, an efficient KV cache compression method for long reasoning in large language models. By leveraging Q/K concentration in pre-RoPE space and a trigonometric series to score key importance, TriAttention matches Full Attention reasoning accuracy on AIME25 while achieving 2.5x higher throughput or 10.7x KV memory reduction. Check out the [project page](https://weianmao.github.io/tri-attention-project-page/) and [code](https://github.com/WeianMao/triattention)!",
-        "date": "2026-04-07"
+        "title": "⚡ FlashQLA v0.1.1 released",
+        "content": "FlashQLA v0.1.1 has been released, adding intra-card sequence parallelism for the backward pass and SM100 support. Check out the [GitHub repository](https://github.com/QwenLM/FlashQLA).",
+        "date": "2026-06-30"
     },
     {
-        "title": "📢 New Preprint: Pyramid Sparse Attention (PSA)",
-        "content": "Excited to share our latest preprint on Pyramid Sparse Attention (PSA), a novel attention mechanism designed to enhance efficiency in video understanding and generation tasks. PSA leverages a multi-level sparse attention strategy to allocate computational resources effectively, enabling the model to focus on critical tokens while reducing redundancy. Check out the paper on [project page](https://ziplab.co/PSA)!",
-        "date": "2025-12-03"
+        "title": "🎉 TriAttention accepted to ICML 2026",
+        "content": "TriAttention has been accepted to ICML 2026. It is an efficient KV cache compression method for long reasoning in large language models. By leveraging Q/K concentration in pre-RoPE space and a trigonometric series to score key importance, TriAttention matches Full Attention reasoning accuracy on AIME25 while achieving 2.5x higher throughput or 10.7x KV memory reduction. Check out the [project page](https://weianmao.github.io/tri-attention-project-page/) and [code](https://github.com/WeianMao/triattention)!",
+        "date": "2026-05-10"
     },
     {
-        "title": "🏫 Lecture on Deep Learning Systems in [HPC101](https://hpc101.zjusct.io/)",
-        "content": "Recently delivered a lecture on deep learning systems in the HPC101 course, covering key concepts in deep learning and several topics on efficient training and inference of deep learning models, especially in the context of high-performance computing (HPC) and LLMs.",
-        "date": "2025-07-06",
-        "hidden": true
+        "title": "⚡ FlashQLA v0.1.0 released",
+        "content": "FlashQLA v0.1.0 has been released as an open-source high-performance linear attention kernel library for Qwen. Check out the [GitHub repository](https://github.com/QwenLM/FlashQLA).",
+        "date": "2026-04-29"
     }
 ]

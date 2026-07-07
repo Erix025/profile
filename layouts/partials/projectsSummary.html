@@ -1,0 +1,21 @@
+<div class="card mb-4 shadow-sm" style="border-radius:8px;overflow:hidden;height:300px;">
+  <div class="row no-gutters" style="height:100%;">
+    <div class="col-md-4" style="background:#f8f9fa;height:100%;display:flex;align-items:center;justify-content:center;padding:10px;">
+      {{ with .Params.image }}
+      <img src="{{ . }}" class="card-img" style="max-width:100%;max-height:100%;object-fit:contain;" alt="{{ $.Title }}"/>
+      {{ end }}
+    </div>
+    <div class="col-md-8" style="height:100%;overflow:hidden;">
+      <div class="card-body" style="height:100%;display:flex;flex-direction:column;">
+        <h4 class="card-title mb-2"><a href="{{ .Permalink }}" style="text-decoration:none;color:inherit;">{{ .Title }}</a></h4>
+        {{ with .Date }}
+        <p class="card-text mb-2"><strong class="text-primary">Project</strong> • <span class="text-muted">{{ . | dateFormat "January 2006" }}</span></p>
+        {{ end }}
+        <div class="card-text text-muted" style="flex:1;overflow-y:auto;font-size:0.9rem;padding-right:5px;scrollbar-width:thin;scrollbar-color:#cbd5e0 #f1f3f5;">
+          {{ .Description | safeHTML }}
+        </div>
+        <div style="margin-top:auto;">{{ partial "techtags" . }}</div>
+      </div>
+    </div>
+  </div>
+</div>
