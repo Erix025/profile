@@ -1,8 +1,14 @@
 [
     {
         "school":"[Zhejiang University](https://www.zju.edu.cn/english/)",
-        "degree":"Bachelor of Science",
+        "degree":"PhD",
         "major":"Computer Science and Technology",
-        "range":"2022 - Present"
+        "range":"2026 - Present"
+    },
+    {
+        "school":"[Zhejiang University](https://www.zju.edu.cn/english/)",
+        "degree":"Bachelor of Engineering",
+        "major":"Computer Science and Technology",
+        "range":"2022 - 2026"
     }
 ]
